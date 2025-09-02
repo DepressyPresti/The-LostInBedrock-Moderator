@@ -1,0 +1,14 @@
+# LibDiscordModeration configuration
+discord:
+  token: "PUT_YOUR_BOT_TOKEN_HERE"
+  guild_id: "000000000000000000"
+  notify_channel_id: "000000000000000000"
+  active_bans_channel_id: "000000000000000000"  # Bans and warns also mirror here
+  muted_role_id: "000000000000000000"
+  # Roles allowed to use slash commands
+  allowed_role_ids:
+    - "000000000000000000"
+    - "000000000000000001"
+
+# How often (in seconds) to check for expired bans/mutes
+sweeper_interval_seconds: 60
